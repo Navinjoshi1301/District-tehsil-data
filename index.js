@@ -1,8 +1,12 @@
 const express = require('express');
+const cors = require('cors'); // Import the CORS package
 const districts = require('./districts');
 const tehsils = require('./tehsils');
 
 const app = express();
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Route to fetch all districts
 app.get('/api/districts', (req, res) => {
