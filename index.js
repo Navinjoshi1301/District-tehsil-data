@@ -15,7 +15,7 @@ app.get('/api/districts', (req, res) => {
 
 // Route to fetch tehsils by district ID
 app.get('/api/districts/:districtId/tehsils', (req, res) => {
-  const districtId = parseInt(req.params.districtId);
+  const districtId = req.params.districtId;
   const districtTehsils = tehsils.filter(tehsil => tehsil.districtId === districtId);
 
   if (districtTehsils.length === 0) {

@@ -60,6 +60,12 @@ const districts = [
   { id: 5, name: "Narmadapuram" }, // Previously Hoshangabad
   { id: 6, name: "Betul" },
   { id: 7, name: "Khargone" },
+  { id: 8, name: "Bhopal" },
+  { id: 9, name: "Jabalpur" },
+  { id: 10, name: "Gwalior" },
+  { id: 11, name: "Ujjain" },
+  { id: 12, name: "Sagar" },
+  { id: 13, name: "Ratlam" },
 ];
   
   module.exports = districts;
