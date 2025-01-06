@@ -5,6 +5,8 @@ const tehsils = [
   { id: 3, districtId: 'Dewas', name: "Bagli" },
   { id: 4, districtId: 'Dewas', name: "Kannod" },
   { id: 5, districtId: 'Dewas', name: "Khategaon" },
+  { id: 65, districtId: 'Dewas', name: "Satwas" },
+
 
   // Indore District
   { id: 6, districtId: 'Indore', name: "Indore" },
